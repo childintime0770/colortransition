@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.parent div {
+    width: 250px;
+    height: 250px;
+    opacity: .5;
+    position: absolute;
+}
+
+.first {
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+
+.second {
+    background-color: blue;
+    left: 250px;
+    top: 0;
+}
+
+.third {
+    background-color: yellow;
+    top: 250px;
+    left: 250px;
+}
+
+.fourth {
+    background-color: green;
+    left: 0;
+    top: 250px;
+}
